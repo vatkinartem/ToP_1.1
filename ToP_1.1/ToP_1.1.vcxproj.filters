@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\myClassHeaders">
+      <UniqueIdentifier>{0444ada4-37e5-4c7b-9c13-e462abcc50a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\myClassCPP">
+      <UniqueIdentifier>{a5ab6798-f8ed-4502-aadb-fa2786150ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\myExceptionCPP">
+      <UniqueIdentifier>{da2ca74d-de57-464c-ba6d-ed096162c520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\myExceptionsHeaders">
+      <UniqueIdentifier>{5af5b36e-e7e6-43cb-8993-06822d65b370}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myQueue.h">
+      <Filter>Файлы заголовков\myClassHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myQueue1.h">
+      <Filter>Файлы заголовков\myClassHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myExceptions.h">
+      <Filter>Файлы заголовков\myExceptionsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NonNumericInputException.h">
+      <Filter>Файлы заголовков\myExceptionsHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="myQueue.cpp">
+      <Filter>Исходные файлы\myClassCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="myQueue1.cpp">
+      <Filter>Исходные файлы\myClassCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NonNumericInputException.cpp">
+      <Filter>Исходные файлы\myExceptionCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
